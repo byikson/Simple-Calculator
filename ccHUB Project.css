@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: rgb(232, 255, 247);
+}
+
+input {
+    height: 50px;
+    background-color: rgb(232, 255, 247);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(102, 188, 245)
+}
+
+div {
+    font-size: 2em;
+    justify-content: center;
+    display: grid; 
+}
+
+p {
+    justify-content: center;
+    display: grid; 
+}
+
+button {
+    border: 1px solid rgb(102, 188, 245);
+    background-color: rgb(102, 188, 245);
+    margin: -1px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ccHUB Project.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Calculator</title>
+  </head>
+  <body>
+      
+      <div>
+          <form>
+            <input type ="text" colspan="2" id ="firstValue" placeholder="enter first value">
+            <input type ="text" colspan="2" id ="secondValue" placeholder="enter first value"> <br>
+            <select id ="operator" >
+                <option value ="divOperator">/</option>
+                <option value ="mulOperator">x</option>
+                <option value ="addOperator">+</option>
+                <option value ="minOperator">-</option>
+            </select>
+            <button colspan="4" id ="equal" onclick ="Solve()">=</button>
+            <div id ="answer"></div>
+          </form>
+      </div>
+
+      
+        <script src="ccHUB Project.js"></script>
+    
+  </body>
+</html>
